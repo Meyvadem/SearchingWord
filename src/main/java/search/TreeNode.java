@@ -14,6 +14,7 @@ public class TreeNode {
     FileLinkedList fileList;
     TreeNode left;
     TreeNode right;
+    String key;
 
     public TreeNode(String data, String fileName) {
         this.data = data;
